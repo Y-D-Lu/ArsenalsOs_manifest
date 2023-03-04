@@ -7,9 +7,10 @@
   <remote name="pixel-devices" fetch="https://github.com/PixelExperience-Devices" revision="thirteen"/>
   <remote name="pixel-devices-blobs" fetch="https://gitlab.pixelexperience.org/android/vendor-blobs" revision="thirteen"/>
   <remote name="pixel-gitlab" fetch="https://gitlab.pixelexperience.org/android" revision="thirteen"/>
-  
+  <remote name="arsenalsos" fetch="https://github.com/Y-D-Lu" revision="aos"/>
+
   <default remote="aosp" revision="refs/tags/android-13.0.0_r30" sync-j="4" sync-c="true"/>
-  
+
   <project name="art" remote="pixel" revision="a2a18baf3014ae08e2ed90f6cebb6e4b41c70415" upstream="thirteen" dest-branch="thirteen"/>
   <project name="bionic" remote="pixel" revision="c7e10c16da8b02c13751cbd999e86b0aefce05f8" upstream="thirteen" dest-branch="thirteen"/>
   <project name="bootable_recovery" path="bootable/recovery" remote="pixel" revision="b011bfe50e834d5c48971e474e62792f82fd6eff" upstream="thirteen" dest-branch="thirteen"/>
@@ -1209,8 +1210,11 @@
   <project name="vendor_qcom_opensource_wfd-commonsys" path="vendor/qcom/opensource/wfd-commonsys" remote="pixel" revision="95297d733df5ac5ad5ac758214971f3356c61fdf" upstream="thirteen" dest-branch="thirteen"/>
   <project name="vendor_xiaomi_haydn" path="vendor/xiaomi/haydn" remote="pixel-devices-blobs" revision="96914edd4125fe77a86157df65c87a34f20440ee" upstream="thirteen" dest-branch="thirteen" groups="local::pixel"/>
   <project name="vendor_xiaomi_haydn-firmware" path="vendor/xiaomi/haydn-firmware" remote="pixel-devices-blobs" revision="db602ce540861ce16f3d0e95805353c438339d4e" upstream="thirteen" dest-branch="thirteen" groups="local::pixel"/>
-  
+
   <superproject name="platform/superproject" revision="android-13.0.0_r30"/>
-  
+
   <contactinfo bugurl="go/repo-bug"/>
+
+  <project name="ArsenalsOs_kernel_kernelsu" path="kernel/KernelSU" remote="arsenalsos" upstream="aos" dest-branch="aos"/>
+
 </manifest>
