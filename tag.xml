@@ -36,7 +36,6 @@
   <project name="device_google_cuttlefish" path="device/google/cuttlefish" remote="pixel" revision="818e0c60562137f5a4fa3ea30aa6141fef3cf05a" upstream="thirteen" dest-branch="thirteen"/>
   <project name="device_qcom_sepolicy" path="device/qcom/sepolicy" remote="pixel" revision="87f22d9e62f31098a2eb221888a8f8ff43a90c9c" upstream="thirteen" dest-branch="thirteen"/>
   <project name="device_qcom_sepolicy-legacy-um" path="device/qcom/sepolicy-legacy-um" remote="pixel" revision="c32c149f7e8ce3b7b78e1804c6348566e800003f" upstream="thirteen" dest-branch="thirteen"/>
-  <project name="device_qcom_sepolicy_vndr" path="device/qcom/sepolicy_vndr" remote="pixel" revision="2ced72d5a4d128e42470ffff0cf2bdcf28d966de" upstream="thirteen" dest-branch="thirteen"/>
   <project name="device_qcom_sepolicy_vndr-legacy-um" path="device/qcom/sepolicy_vndr-legacy-um" remote="pixel" revision="114bb3b63a152c65f1b45981a72cc32bd7b0ee3f" upstream="thirteen" dest-branch="thirteen"/>
   <project name="external_ant-wireless_ant_client" path="external/ant-wireless/ant_client" remote="pixel" revision="9598c3df9cd82abb1922d9fb35525d247bf78f14" upstream="thirteen" dest-branch="thirteen"/>
   <project name="external_ant-wireless_ant_native" path="external/ant-wireless/ant_native" remote="pixel" revision="c674e613ac60fcd7583ca26bbb8878eec6aec851" upstream="thirteen" dest-branch="thirteen"/>
@@ -1216,5 +1215,6 @@
   <project name="ArsenalsOs_kernel_kernelsu" path="kernel/KernelSU" remote="arsenalsos" upstream="aos" dest-branch="aos"/>
   <project name="ArsenalsOs_kernel_xiaomi_haydn" path="kernel/xiaomi/haydn" remote="arsenalsos" upstream="aos" dest-branch="aos"/>
   <project name="ArsenalsOs_device_xiaomi_haydn" path="device/xiaomi/haydn" remote="arsenalsos" upstream="aos" dest-branch="aos"/>
+  <project name="ArsenalsOs_device_qcom_sepolicy_vndr" path="device/qcom/sepolicy_vndr" remote="arsenalsos" upstream="aos" dest-branch="aos"/>
 
 </manifest>
