@@ -178,7 +178,6 @@
   <project name="kernel/prebuilts/mainline/x86-64" path="kernel/prebuilts/mainline/x86_64" revision="71bf770c97cd6e3dadbfd49a90b983685daf3e41" upstream="refs/tags/android-13.0.0_r30" dest-branch="refs/tags/android-13.0.0_r30" groups="pdk" clone-depth="1"/>
   <project name="kernel/tests" revision="749a7d159f7ea36bbcc70ab27a2a4b4483dc1c71" upstream="refs/tags/android-13.0.0_r30" dest-branch="refs/tags/android-13.0.0_r30" groups="vts,pdk"/>
   <project name="kernel_configs" path="kernel/configs" remote="pixel" revision="ef9a00e6f1dfb924cda85b352dc08f256103218e" upstream="thirteen" dest-branch="thirteen"/>
-  <project name="kernel_xiaomi_haydn" path="kernel/xiaomi/haydn" remote="pixel-devices" revision="ce0c950e53218da509e59d1d0ecaa81284cce480" upstream="thirteen" dest-branch="thirteen" groups="local::pixel"/>
   <project name="libcore" remote="pixel" revision="6dc4d0ec2c3d031963ebadfde81c24f8b7a74bd9" upstream="thirteen" dest-branch="thirteen"/>
   <project name="manifest" remote="pixel" revision="ad1a9c5e9875517eb2882e323fe6a909f21013ae" upstream="thirteen" dest-branch="thirteen"/>
   <project name="packages_apps_Aperture" path="packages/apps/Aperture" remote="pixel" revision="5003810f79e6c32542241a16c2f80356ffd572d4" upstream="thirteen" dest-branch="thirteen"/>
@@ -1216,5 +1215,6 @@
   <contactinfo bugurl="go/repo-bug"/>
 
   <project name="ArsenalsOs_kernel_kernelsu" path="kernel/KernelSU" remote="arsenalsos" upstream="aos" dest-branch="aos"/>
+  <project name="ArsenalsOs_kernel_xiaomi_haydn" path="kernel/xiaomi/haydn" remote="arsenalsos" upstream="aos" dest-branch="aos"/>
 
 </manifest>
