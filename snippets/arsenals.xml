@@ -33,6 +33,7 @@
     <linkfile src="tools" dest="build/tools" />
   </project>
   <project path="device/custom/sepolicy" name="ArsenalsOs_device_custom_sepolicy" remote="arsenalsos" upstream="aos" dest-branch="aos" />
+  <project path="device/qcom/sepolicy_vndr" name="ArsenalsOs_device_qcom_sepolicy_vndr" remote="arsenalsos" upstream="aos" dest-branch="aos"/>
   <project path="external/faceunlock" name="ArsenalsOs_external_faceunlock" remote="arsenalsos" upstream="aos" dest-branch="aos" />
   <project path="frameworks/base" name="ArsenalsOs_frameworks_base" remote="arsenalsos" upstream="aos" dest-branch="aos" />
   <project path="packages/apps/TouchGestures" name="ArsenalsOs_packages_apps_TouchGestures" remote="arsenalsos" upstream="aos" dest-branch="aos" />
@@ -221,7 +222,7 @@
   <!-- Device repos -->
   <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="pixel" />
   <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy-legacy-um" remote="pixel" />
-  <project path="device/qcom/sepolicy_vndr" name="device_qcom_sepolicy_vndr" remote="pixel" />
+  <!--project path="device/qcom/sepolicy_vndr" name="device_qcom_sepolicy_vndr" remote="pixel" /-->
   <project path="device/qcom/sepolicy_vndr-legacy-um" name="device_qcom_sepolicy_vndr-legacy-um" remote="pixel" />
 
   <!-- External repos -->
