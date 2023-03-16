@@ -32,16 +32,16 @@
     <linkfile src="target" dest="build/target" />
     <linkfile src="tools" dest="build/tools" />
   </project>
-  <project path="device/custom/sepolicy" name="ArsenalsOs_device_custom_sepolicy" remote="arsenalsos" />
-  <project path="external/faceunlock" name="ArsenalsOs_external_faceunlock" remote="arsenalsos" />
-  <project path="frameworks/base" name="ArsenalsOs_frameworks_base" remote="arsenalsos" />
-  <project path="packages/apps/TouchGestures" name="ArsenalsOs_packages_apps_TouchGestures" remote="arsenalsos" />
-  <project path="packages/apps/Updates" name="ArsenalsOs_packages_apps_Updates" remote="arsenalsos" />
-  <project path="packages/apps/FaceUnlockService" name="ArsenalsOs_packages_apps_FaceUnlockService" remote="arsenalsos" />
-  <project path="packages/apps/Settings" name="ArsenalsOs_packages_apps_Settings" remote="arsenalsos" />
-  <project path="packages/resources/devicesettings" name="ArsenalsOs_packages_resources_devicesettings" remote="arsenalsos" />
-  <project path="vendor/pixel-framework" name="ArsenalsOs_vendor_pixel-framework" remote="arsenalsos" />
-  <project path="vendor/aosp" name="ArsenalsOs_vendor_aosp" remote="arsenalsos" />
+  <project path="device/custom/sepolicy" name="ArsenalsOs_device_custom_sepolicy" remote="arsenalsos" upstream="aos" dest-branch="aos" />
+  <project path="external/faceunlock" name="ArsenalsOs_external_faceunlock" remote="arsenalsos" upstream="aos" dest-branch="aos" />
+  <project path="frameworks/base" name="ArsenalsOs_frameworks_base" remote="arsenalsos" upstream="aos" dest-branch="aos" />
+  <project path="packages/apps/TouchGestures" name="ArsenalsOs_packages_apps_TouchGestures" remote="arsenalsos" upstream="aos" dest-branch="aos" />
+  <project path="packages/apps/Updates" name="ArsenalsOs_packages_apps_Updates" remote="arsenalsos" upstream="aos" dest-branch="aos" />
+  <project path="packages/apps/FaceUnlockService" name="ArsenalsOs_packages_apps_FaceUnlockService" remote="arsenalsos" upstream="aos" dest-branch="aos" />
+  <project path="packages/apps/Settings" name="ArsenalsOs_packages_apps_Settings" remote="arsenalsos" upstream="aos" dest-branch="aos" />
+  <project path="packages/resources/devicesettings" name="ArsenalsOs_packages_resources_devicesettings" remote="arsenalsos" upstream="aos" dest-branch="aos" />
+  <project path="vendor/pixel-framework" name="ArsenalsOs_vendor_pixel-framework" remote="arsenalsos" upstream="aos" dest-branch="aos" />
+  <project path="vendor/aosp" name="ArsenalsOs_vendor_aosp" remote="arsenalsos" upstream="aos" dest-branch="aos" />
 
   <!-- ArsenalsOs repos END -->
 
