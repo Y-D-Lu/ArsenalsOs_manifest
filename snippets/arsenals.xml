@@ -43,6 +43,7 @@
   <project path="packages/resources/devicesettings" name="ArsenalsOs_packages_resources_devicesettings" remote="arsenalsos" upstream="aos" dest-branch="aos" />
   <project path="vendor/pixel-framework" name="ArsenalsOs_vendor_pixel-framework" remote="arsenalsos" upstream="aos" dest-branch="aos" />
   <project path="vendor/aosp" name="ArsenalsOs_vendor_aosp" remote="arsenalsos" upstream="aos" dest-branch="aos" />
+  <project path="vendor/arsenals/aos" name="ArsenalsOs_vendor_arsenals_aos" remote="arsenalsos" upstream="aos" dest-branch="aos" />
 
   <!-- ArsenalsOs repos END -->
 
